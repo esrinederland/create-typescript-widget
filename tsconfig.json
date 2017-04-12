@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "watch": true,
+        "module": "amd",
+        "noImplicitAny": false,
+        "target": "es5",
+        "jsx": "react",
+        "reactNamespace": "jsxFactory",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": [
+        "./app/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
